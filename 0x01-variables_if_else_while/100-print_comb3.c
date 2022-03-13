@@ -3,13 +3,9 @@
 
 
 /**
-
  * main - Prints combination of numbers
-
  *
-
  * Return: Always (Success)
-
  **/
 
 int main(void)
