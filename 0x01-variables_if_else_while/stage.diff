@@ -1,0 +1,53 @@
+diff --git a/0x01-variables_if_else_while/0-positive_or_negative.c b/0x01-variables_if_else_while/0-positive_or_negative.c
+new file mode 100644
+index 0000000..c2ab85a
+--- /dev/null
++++ b/0x01-variables_if_else_while/0-positive_or_negative.c
+@@ -0,0 +1,47 @@
++#include <stdio.h>
++
++#include <stdlib.h>
++
++#include <time.h>
++
++/**
++
++ * main - Entry point
++
++ *
++
++ * Return: Always 0 (Success)
++
++ */
++
++int main(void)
++
++{
++
++	int n;
++
++
++
++	srand(time(0));
++
++	n = rand() - RAND_MAX / 2;
++
++
++
++	if (n > 0)
++
++		printf("%d is positive\n", n);
++
++	else if (n == 0)
++
++		printf("%d is zero\n", n);
++
++	else
++
++		printf("%d is negative\n", n);
++
++
++
++	return (0);
++
++}
