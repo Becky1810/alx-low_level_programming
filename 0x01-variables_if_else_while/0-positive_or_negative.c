@@ -12,7 +12,7 @@
  */
 
 /**
- * main
+ * main - lanzador
  */
 
 int main(void)
