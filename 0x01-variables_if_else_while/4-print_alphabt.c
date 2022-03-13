@@ -3,13 +3,9 @@
 
 
 /**
-
  * main - Prints some letters of alphabet
-
  *
-
  * Return: Always (Success)
-
  **/
 
 int main(void)
@@ -43,15 +39,3 @@ int main(void)
 	return (0);
 
 }
-
-© 2022 GitHub, Inc.
-
-Terms
-
-Privacy
-
-Security
-
-Status
-
-
