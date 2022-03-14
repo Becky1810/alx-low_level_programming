@@ -1,0 +1,51 @@
+diff --git a/0x00-hello_world/101-quote.c b/0x00-hello_world/101-quote.c
+old mode 100755
+new mode 100644
+index a9bbc93..696095a
+--- a/0x00-hello_world/101-quote.c
++++ b/0x00-hello_world/101-quote.c
+@@ -1,14 +1,27 @@
+-#include <stdio.h>
+-#include <unistd.h>
+-/**
+- * main - Entry point
+- *
+- * Description: 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
+- *
+- * Return: Always 0 (Success)
+- */
+-int main(void)
+-{
+-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+-	return (1);
+-}
++#include <stdio.h>
++
++#include <unistd.h>
++
++/**
++
++ * main - Entry point
++
++ *
++
++ * Description: 'and that piece of art is useful" - Dora Korpar, 2015-10-19'
++
++ *
++
++ * Return: Always 0 (Success)
++
++ */
++
++int main(void)
++
++{
++
++	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
++
++	return (1);
++
++}
+diff --git a/0x00-hello_world/stage.diff b/0x00-hello_world/stage.diff
+new file mode 100644
+index 0000000..e69de29
