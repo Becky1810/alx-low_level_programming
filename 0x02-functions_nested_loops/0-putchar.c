@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - print '_putchar' followed by a new line
  *
  * Return: Always 0 (Success)
  */
@@ -8,7 +8,7 @@ int main(void)
 {
 	char *sh = "_putchar";
 
-	while (*sh)
+	while (*sh != '\0')
 	{
 		_putchar(*sh);
 		sh++;
