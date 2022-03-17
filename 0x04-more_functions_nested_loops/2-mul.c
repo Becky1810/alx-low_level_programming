@@ -1,18 +1,11 @@
 #include "main.h"
-
 /**
- * print_numbers - prints the numbers 0-9, followed by a new line
- * Description: You can only use _putchar twice
+ * mul - multiply 2 integers
+ * @a: int type number
+ * @b: int type number
+ * Return: result of multiplication
  */
-void print_numbers(void)
+int mul(int a, int b)
 {
-	int i = '0';
-
-	while (i <= '9')
-	{
-
-		_putchar(i);
-		i++;
-	}
-	_putchar('\n');
+	return (a * b);
 }
