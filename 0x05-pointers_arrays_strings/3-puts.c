@@ -1,19 +1,18 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * printf - prints a string in stdout
- * @str: string to print
+ * _puts - prints a string
+ * @str: the string
  *
- * Return: void
+ * Return: the length of a string
  */
 void _puts(char *str)
 {
 	int i = 0;
 
-	while (*(str + i))
+	while (str[i] != '\0')
 	{
-		printf(*(str + i));
+		_putchar(str[i]);
 		i++;
 	}
-	printf('\n');
+	_putchar('\n');
 }
