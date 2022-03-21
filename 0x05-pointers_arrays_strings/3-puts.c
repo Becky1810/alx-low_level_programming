@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - prints a string in stdout
+ * printf - prints a string in stdout
  * @str: string to print
  *
  * Return: void
@@ -12,8 +12,8 @@ void _puts(char *str)
 
 	while (*(str + i))
 	{
-		_puts(*(str + i));
+		printf(*(str + i));
 		i++;
 	}
-	_puts('\n');
+	printf('\n');
 }
