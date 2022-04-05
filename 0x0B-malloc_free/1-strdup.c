@@ -3,21 +3,29 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for ALX school students.
- *
- * Return: Always 0.
+ * _strdup - Entry point
+ *@str: string we need to duplicate
+ * Return: a pointer to the duplicated string or NULL
  */
-int main(void)
+char *_strdup(char *str)
 {
-    char *s;
+	char *strnew = NULL;
+	unsigned int i;
+	int n;
 
-    s = _strdup("ALX");
-    if (s == NULL)
-    {
-        printf("failed to allocate memory\n");
-        return (1);
-    }
-    printf("%s\n", s);
-    free(s);
-    return (0);
+	if (str == NULL)
+		return (NULL);
+	for (n = 0; str[n] != '\0'; n++)
+		;
+	strnew = (char *)malloc(n + 1 * sizeof(char));
+	if (strnew != NULL)
+	{
+		for (i = 0; str[i] != '\0'; i++)
+			strnew[i] = str[i];
+	} else
+	{
+		return (NULL);
+	}
+	strnew[i] = '\0';
+	return (strnew);
 }
