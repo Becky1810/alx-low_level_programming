@@ -1,8 +1,13 @@
-#include "stdlib.h"
+#include "1-pi.h"
+#include <stdio.h>
 
-int main() {
-
-   printf("stdlib\n");
-
-   return (0);
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
 }
