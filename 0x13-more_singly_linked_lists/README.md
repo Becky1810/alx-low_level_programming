@@ -1,1 +1,1 @@
-this repository is more singly linke lists
+this repository is more singly linked lists
